@@ -24,6 +24,11 @@ services:
     expose:
       - "8080"
       - "8081"
+    logging:
+      driver: "json-file"
+      options:
+        max-file: '4'
+        max-size: '250m'
 
 networks:
   planet-link:
