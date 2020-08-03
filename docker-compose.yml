@@ -2,7 +2,7 @@ version: '3.6'
 
 services:
   web:
-    image: alpine:3.11
+    image: alpine:3.12
     container_name: the-gear-of-seasons_web
     hostname: the-gear-of-seasons_web
     restart: always
